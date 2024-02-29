@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+header {
+    background-color: transparent;
+    border-style: outset;
+    border-color: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 5;
+}
+
+nav a {
+    color: aqua;
+    text-decoration: none;
+}
+
+nav a :hover {
+    color: chartreuse;
+    text-decoration: underline;
+    cursor: crosshair;
+}
